@@ -2,6 +2,8 @@ This is Reactjs Programing Test
 ====
 A live version of this project is available at [**HERE**](http://gallery-infinite.surge.sh/).
 
+## Getting started
+
 First, you need clone (or extract) this project and install node modules by running
 
 ```sh
