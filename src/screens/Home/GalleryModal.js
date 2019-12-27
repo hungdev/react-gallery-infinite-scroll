@@ -49,6 +49,7 @@ class GalleryModal extends Component {
       <Modal
         open={open}
         onClose={onClose}
+        className='modal-gallery'
       >
         <Modal.Header>Profile Picture: There are {data.length} pictures</Modal.Header>
         <Modal.Content image scrolling onScroll={this.handleScroll}>

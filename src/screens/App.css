@@ -5,3 +5,7 @@
 .hamburger {
   cursor: pointer;
 }
+
+.modal-gallery {
+  height: 80% !important;
+}
