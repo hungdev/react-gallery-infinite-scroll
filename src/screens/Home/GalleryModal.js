@@ -63,7 +63,6 @@ class GalleryModal extends Component {
             <div>
               {data.map((e, i) => <Image key={i} src={e.url} style={{ width: 150, display: 'inline-block', }} />)}
             </div>
-            <div><Loader disabled={!isFetch} /></div>
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
@@ -71,6 +70,7 @@ class GalleryModal extends Component {
             Close Now <Icon name='chevron right' />
           </Button>
         </Modal.Actions>
+        <div><Loader disabled={!isFetch} /></div>
       </Modal>
     )
   }
